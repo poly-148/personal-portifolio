@@ -1,0 +1,24 @@
+*{margin:0; padding:0; box-sizing: border-box}
+body{font-family: sans-serif; background-color: lightcoral}
+header{background-color: #1ea446; text-align: center; padding:20px}
+.navbar ul {list-style-type:none; display:flex; justify-content: center; gap:20px}
+.navbar ul li{display: inline}
+.navbar ul li a{text-decoration: none;
+color:purple; padding:10px 20px; border-radius: 15px; font-size:larger;}
+.navbar ul li a:hover{color:yellow;background-color: green}
+section{padding:50px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin:40px auto;
+    max-width:500px;
+    background-color: lightpink;
+    border:purple;
+box-shadow: 0 4px 8px darkorchid}
+footer{background-color: darkblue;text-align: center;color:darkcyan; padding:30px 20px; border-top: 5px}
+form{flex-direction: column ;display:flex; max-width: 500px;margin:0 auto;gap:7px}
+form input, form textarea{border:solid green 1px;border-radius: 20px}
+#btn{background-color: aquamarine; border:none; padding:10px; border-radius: 10px;cursor:pointer; color:darkred; font-size: larger}
+#btn:hover{background-color: yellow}
+.social_links{display:flex; gap:15px;justify-content: center }
+.social_links img{width:50px; height:50px; border:3px solid plum; border-radius: 15px;}
+@media(max-width: 768px){.navbar ul{flex-direction: column;} body{background-color: #4273db} }
